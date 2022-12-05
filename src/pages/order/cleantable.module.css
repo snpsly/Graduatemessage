@@ -1,0 +1,66 @@
+.tablebut{
+ width: 50px;
+ display: flex;
+
+ align-items: center;
+ flex-direction: row;
+}
+.rightbut{
+  margin-left: 10px;
+}
+.cardture{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+transform: translate(-50%, -50%);
+background: white;
+}
+
+.cit{
+  position: relative;
+}
+.zz{
+  display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99999999;
+    background: rgba(7, 7, 7, 0.247);
+    overflow: auto;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    display: -o-box;
+    -o-box-align: center;
+    -o-box-pack: center;
+    display: -ms-box;
+    -ms-box-align: center;
+    -ms-box-pack: center;
+    display: box;
+    box-align: center;
+    box-pack: center;
+  
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    -ms-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+   
+}
+.topbar{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.cardclean{
+  margin: 10px;
+}
